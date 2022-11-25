@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
-.container {
-  width: 95%;
-  margin: 0 auto;
+.header {
+  width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+  padding-top: 30px;
 }
 .logo-nav-container{
   display: flex;

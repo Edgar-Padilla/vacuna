@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+.header {
+  width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+  padding-top: 30px;
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top:0 ;
+}
+.ima{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white; 
+}
+
+.gracias{
+  width: 100%; 
+  height: auto;
+  padding-top: 30px;
+  text-align: center;
+}

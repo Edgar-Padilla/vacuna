@@ -4,11 +4,60 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 95%;
-    margin: 0 auto;
-}
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+.header {
+  width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+  padding-top: 30px;
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top:0 ;
+}
+.ima{
+  margin: 0;
+  padding: 0;
+}
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  color: #304852;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.navigation ul li a:hover{
+  background: #f3f3f3;
+  text-decoration: underline solid 1px #36595F;
+}
+.navigation ul li a:visited{
+  color: #304852;
+  background: #f3f3f3;
+  text-decoration: none;
+}
+a:visited{
+  color:blue
+}
+.container{
+  width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+  padding-top: 30px;
+}
 .container-faq {
     box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
     padding: 30px;
