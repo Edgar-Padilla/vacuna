@@ -17,5 +17,5 @@ $para = 'edgarpluis@gmail.com';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("index.html");
+header("location:exito.html");
 ?>
